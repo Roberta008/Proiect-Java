@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="main.java.Inregistrare">
+  <grid id="27dc6" binding="fereastraPrincipala" layout-manager="GridLayoutManager" row-count="20" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="692" height="622"/>
+    </constraints>
+    <properties>
+      <background color="-401409"/>
+      <font name="JetBrains Mono" size="11" style="3"/>
+      <foreground color="-14540254"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="75b86" class="javax.swing.JTextField" binding="fieldNume">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-4024065"/>
+          <font name="JetBrains Mono" size="12" style="3"/>
+          <foreground color="-14540254"/>
+        </properties>
+      </component>
+      <component id="2f0f0" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="14" style="3"/>
+          <foreground color="-14540254"/>
+          <text value="Nume &gt; "/>
+        </properties>
+      </component>
+      <component id="e6884" class="javax.swing.JTextField" binding="fieldPrenume">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-4024065"/>
+          <font name="JetBrains Mono" size="12" style="3"/>
+          <foreground color="-14540254"/>
+        </properties>
+      </component>
+      <component id="31a0a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="14" style="3"/>
+          <foreground color="-14540254"/>
+          <text value="Prenume &gt;"/>
+        </properties>
+      </component>
+      <component id="9bea0" class="javax.swing.JTextField" binding="fieldUsername">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-4024065"/>
+          <font name="JetBrains Mono" size="12" style="3"/>
+          <foreground color="-14540254"/>
+        </properties>
+      </component>
+      <component id="1f202" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="14" style="3"/>
+          <foreground color="-14540254"/>
+          <text value="Username &gt; "/>
+        </properties>
+      </component>
+      <component id="14d9c" class="javax.swing.JPasswordField" binding="fieldPass">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-4024065"/>
+          <font name="JetBrains Mono" size="12" style="3"/>
+          <foreground color="-14540254"/>
+        </properties>
+      </component>
+      <component id="42d8e" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="14" style="3"/>
+          <foreground color="-14540254"/>
+          <text value="Parola &gt; "/>
+        </properties>
+      </component>
+      <grid id="20438" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-401409"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="d49c1" class="javax.swing.JRadioButton" binding="butonMasculin">
+            <constraints/>
+            <properties>
+              <background color="-401409"/>
+              <font name="JetBrains Mono" size="14" style="3"/>
+              <foreground color="-14540254"/>
+              <text value="Masculin"/>
+            </properties>
+          </component>
+          <component id="fd14d" class="javax.swing.JRadioButton" binding="butonFeminin">
+            <constraints/>
+            <properties>
+              <background color="-401409"/>
+              <font name="JetBrains Mono" size="14" style="3"/>
+              <foreground color="-14540254"/>
+              <text value="Feminin"/>
+            </properties>
+          </component>
+          <component id="e77e7" class="javax.swing.JRadioButton" binding="butonAltceva">
+            <constraints/>
+            <properties>
+              <background color="-401409"/>
+              <font name="JetBrains Mono" size="14" style="3"/>
+              <foreground color="-14540254"/>
+              <text value="Nu doresc sa specific"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="78d76" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="14" style="3"/>
+          <foreground color="-14540254"/>
+          <text value="Sex &gt; "/>
+        </properties>
+      </component>
+      <component id="62a65" class="javax.swing.JTextField" binding="fieldVarsta">
+        <constraints>
+          <grid row="9" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-4024065"/>
+          <font name="JetBrains Mono" size="12" style="3"/>
+          <foreground color="-14540254"/>
+        </properties>
+      </component>
+      <component id="76bc0" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="14" style="3"/>
+          <foreground color="-14540254"/>
+          <text value="Varsta &gt; "/>
+        </properties>
+      </component>
+      <grid id="11043" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints>
+          <grid row="10" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-401409"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="b3ad4" class="javax.swing.JRadioButton" binding="butonDa">
+            <constraints/>
+            <properties>
+              <background color="-401409"/>
+              <font name="JetBrains Mono" size="14" style="3"/>
+              <foreground color="-14540254"/>
+              <text value="Da"/>
+            </properties>
+          </component>
+          <component id="36539" class="javax.swing.JRadioButton" binding="butonNu">
+            <constraints/>
+            <properties>
+              <background color="-401409"/>
+              <font name="JetBrains Mono" size="14" style="3"/>
+              <foreground color="-14540254"/>
+              <text value="Nu"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="4125b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="14" style="3"/>
+          <foreground color="-14540254"/>
+          <text value="Permis categoria B"/>
+        </properties>
+      </component>
+      <component id="3c5cb" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="14" style="3"/>
+          <foreground color="-14540254"/>
+          <text value="Numar telefon &gt; "/>
+        </properties>
+      </component>
+      <component id="72d8" class="javax.swing.JTextField" binding="fieldLocalitate">
+        <constraints>
+          <grid row="12" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-4024065"/>
+          <font name="JetBrains Mono" size="12" style="3"/>
+          <foreground color="-14540254"/>
+        </properties>
+      </component>
+      <component id="c8ee4" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="12" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="14" style="3"/>
+          <foreground color="-14540254"/>
+          <text value="Localitate &gt; "/>
+        </properties>
+      </component>
+      <component id="984b7" class="javax.swing.JTextField" binding="fieldAdresa">
+        <constraints>
+          <grid row="13" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-4024065"/>
+          <font name="JetBrains Mono" size="12" style="3"/>
+          <foreground color="-14540254"/>
+        </properties>
+      </component>
+      <component id="818a9" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="13" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="14" style="3"/>
+          <foreground color="-14540254"/>
+          <text value="Adresa &gt; "/>
+        </properties>
+      </component>
+      <grid id="32e95" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints>
+          <grid row="17" column="1" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-401409"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="63b5a" class="javax.swing.JButton" binding="butonInrg">
+            <constraints/>
+            <properties>
+              <background color="-6541057"/>
+              <font name="JetBrains Mono" size="14" style="3"/>
+              <foreground color="-14540254"/>
+              <text value="Inregistrare"/>
+            </properties>
+          </component>
+          <component id="f514a" class="javax.swing.JButton" binding="butonAnulare">
+            <constraints/>
+            <properties>
+              <background color="-6541057"/>
+              <font name="JetBrains Mono" size="14" style="3"/>
+              <foreground color="-14540254"/>
+              <text value="Anulare"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <hspacer id="2f1fc">
+        <constraints>
+          <grid row="0" column="3" row-span="19" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="2e4c6">
+        <constraints>
+          <grid row="0" column="0" row-span="19" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="4b3dd" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="14" style="3"/>
+          <foreground color="-14540254"/>
+          <text value="Pentru inregistrare completeaza toate spatiile de mai jos cu informatii corecte !"/>
+        </properties>
+      </component>
+      <component id="f529d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="   "/>
+        </properties>
+      </component>
+      <component id="c4c90" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="   "/>
+        </properties>
+      </component>
+      <component id="c1b99" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="   "/>
+        </properties>
+      </component>
+      <vspacer id="7b750">
+        <constraints>
+          <grid row="18" column="1" row-span="1" col-span="2" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="e8643" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="19" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="14" style="3"/>
+          <foreground color="-14540254"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="bb597" class="javax.swing.JLabel" binding="labelInformatie">
+        <constraints>
+          <grid row="15" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-9883453"/>
+          <font name="JetBrains Mono" size="14" style="3"/>
+          <foreground color="-9883453"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="cf448" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="14" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="   "/>
+        </properties>
+      </component>
+      <component id="1b0a4" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="16" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="    "/>
+        </properties>
+      </component>
+      <component id="79f96" class="javax.swing.JTextField" binding="fieldNrTelefon">
+        <constraints>
+          <grid row="11" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-4024065"/>
+          <font name="JetBrains Mono" size="12" style="3"/>
+          <foreground color="-14540254"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
